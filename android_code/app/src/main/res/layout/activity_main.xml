@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.shinelw.library.ColorArcProgressBar
+        android:id="@+id/bar1"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        app:back_color="@android:color/darker_gray"
+        app:back_width="10dp"
+        app:front_color1="#00ff00"
+        app:front_color2="#ffff00"
+        app:front_color3="#ff0000"
+        app:front_width="10dp"
+        app:is_need_content="true"
+        app:is_need_title="true"
+        app:is_need_unit="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:max_value="50"
+        app:string_title="目前溫度"
+        app:string_unit="∘C"
+        app:total_engle="270" />
+
+
+    <com.shinelw.library.ColorArcProgressBar
+        android:id="@+id/bar2"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        app:back_color="@android:color/darker_gray"
+        app:back_width="10dp"
+        app:front_color1="#69cbd2"
+        app:front_color2="#7eb6e2"
+        app:front_color3="#989df7"
+        app:front_width="10dp"
+        app:is_need_content="true"
+        app:is_need_title="true"
+        app:is_need_unit="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bar1"
+        app:max_value="100"
+        app:string_title="目前濕度"
+        app:string_unit="%"
+        app:total_engle="270" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
