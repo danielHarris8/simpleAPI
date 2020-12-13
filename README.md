@@ -3,8 +3,8 @@ just wanted to make a simple api to do somthing.
 
 <table>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/66697879/102014457-0d711880-3d91-11eb-826e-2f30fc0bcac7.jpg" height="400px" width="300px"></td>
-    <td><img src="https://user-images.githubusercontent.com/66697879/102014483-31ccf500-3d91-11eb-91fe-1949a37649d1.png" height="400px" width="200px"></td>
+    <td><img src="https://user-images.githubusercontent.com/66697879/102014457-0d711880-3d91-11eb-826e-2f30fc0bcac7.jpg" height="400px" ></td>
+    <td><img src="https://user-images.githubusercontent.com/66697879/102014483-31ccf500-3d91-11eb-91fe-1949a37649d1.png" height="400px" ></td>
   </tr>
 </table>
 
