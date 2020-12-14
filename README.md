@@ -19,3 +19,14 @@ then, the board adds what token the board gets adding to the header and post wha
 
 Similarly, the Android app requests a token from the server in the beginning.
 then, the app adds what token the app gets adding to the header and get data from the server. 
+
+## run code in terminal
+
+**Node.js**
+```bash
+npm start
+```
+**Asp.net core**
+```bash
+dotnet run
+```
