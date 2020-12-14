@@ -17,5 +17,5 @@ First, The NodeMcu board requests a token from the server.
 If no token, we cannot post our data to the server. It's an important thing because it ensures that the post of some data is permitted.
 then, the board adds what token the board gets adding to the header and post what data get from the D22 sensor together.
 
-Similarly, the Android app requests a token from the server beginning.
+Similarly, the Android app requests a token from the server in the beginning.
 then, the app adds what token the app gets adding to the header and get data from the server. 
